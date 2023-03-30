@@ -26,7 +26,7 @@ function calculateMinCost(arr,n) {
             pq.push(first + second);
             pq.sort(function(a,b){return a-b;});
         }
-	return res;
+	return pq.shift();
   
   
 }  
