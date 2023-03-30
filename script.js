@@ -22,7 +22,7 @@ function calculateMinCost(arr,n) {
    
             // Connect the ropes: update result
             // and insert the new rope to pq
-            res += first + second;
+            res = first + second;
             pq.push(first + second);
             pq.sort(function(a,b){return a-b;});
         }
